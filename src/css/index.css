@@ -187,16 +187,16 @@ main {
 }
 .image__cola {
     position: absolute;
-    left: 50%;
+    left: 42%;
     margin-left: -232.5px;
-    top: 40%;
+    top: 31%;
     margin-top: -168px;
     display: flex;
     align-items: start;
     justify-content: start;
 }
 .image__cola__img {
-    width: 100%;
+    width: 620px;
     height: auto;
 }
 .marque__container {
