@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Asul';
+    src: url('../fonts/Asul-Regular.ttf');
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: 'Pattaya';
+    src: url('../fonts/Pattaya-Regular.ttf');
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Bebas';
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-image: url('../img/header_img.jpg');
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 110px;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__inner {
+    padding-top: 70px;
+    padding-bottom: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas';
+    font-size: 110px;
+    color: #EADCDC;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: #EFC8B8;
+}
+.container__footer{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rights {
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 32px;
+    padding-bottom: 33px;
+    color: #CB231A;
+    font-family: 'Asul';
+}
+.footer__icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+main {
+    flex-grow: 1;
+    position: relative;
+    background-color: #FFF7F6;
+}
