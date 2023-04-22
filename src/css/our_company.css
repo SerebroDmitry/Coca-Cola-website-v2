@@ -168,3 +168,80 @@ main {
     background: url('../img/company2.jpg') no-repeat center center;
     background-size: cover;
 }
+.supporting {
+    max-width: 1220px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+.supporting__img {
+    width: 645px;
+    height: 280px;
+    background: url('../img/company3.jpg') no-repeat center center;
+    background-size: cover;
+}
+.supporting__text {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    max-width: 590px;
+    font-family: 'Asul';
+    font-size: 24px;
+    color: #474646;
+    text-transform: uppercase;
+    padding: 30px 0px 0px 18px;
+}
+.men_in_cup {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-top: 55px;
+}
+.men_in_cup_text {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    max-width: 476px;
+    font-family: 'Asul';
+    font-size: 24px;
+    color: #474646;
+    text-transform: uppercase;
+    padding: 61px 0px 0px 0px;
+}
+.men_in_cup_img {
+    width: 746px;
+    height: 380px;
+    background: url('../img/company4.jpg') no-repeat center center;
+    background-size: cover;
+}
+.bottom_logos {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 115px;
+    padding-bottom: 39px;
+}
+.year {
+    font-family: 'Asul';
+    font-size: 83px;
+    color: #474646;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom_logo {
+    width: 244px;
+    height: 130px;
+    background-color: #D20913;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom_logo_svg {
+    width: 164.12;
+    height: 52.26;
+    color: #FFF7F6;
+}
