@@ -96,8 +96,75 @@ a {
     gap: 20px;
 }
 
+
 main {
     flex-grow: 1;
     position: relative;
     background-color: #FFF7F6;
+    display: flex;
+    flex-direction: column;
+}
+.text1 {
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+}
+.text1__inner {
+    display: flex;
+    align-items: end;
+    max-width: 888px;
+    font-family: 'Asul';
+    font-size: 26px;
+    color: #474646;
+    text-transform: uppercase;
+    padding: 41px 0px 41px 0px;
+}
+.jacobs {
+    max-width: 1220px;
+    display: flex;
+    flex-direction: row;
+}
+.jacobs__img {
+    width: 694px;
+    height: 350px;
+    background: url('../img/company1.jpg') no-repeat center center;
+    background-size: cover;
+}
+.jacobs__text {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    max-width: 518px;
+    font-family: 'Asul';
+    font-size: 24px;
+    color: #474646;
+    text-transform: uppercase;
+    padding: 16px 0px 0px 26px;
+}
+.skate_niga {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-top: 64px;
+}
+.skate_text {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    max-width: 549px;
+    font-family: 'Asul';
+    font-size: 24px;
+    color: #474646;
+    text-transform: uppercase;
+    padding: 33px 0px 0px 0px;
+}
+.skate_img {
+    width: 651px;
+    height: 342px;
+    background: url('../img/company2.jpg') no-repeat center center;
+    background-size: cover;
 }
